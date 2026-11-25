@@ -24,30 +24,6 @@ Sistema de compilación: Gradle con Kotlin DSL (build.gradle.kts, settings.gradl
 
 Notificaciones: Android Notification Manager (Notifier.kt)
 
-📂 Estructura del proyecto
-
-StudyPlan/
-├── app/
-│   ├── build.gradle.kts                  # Configuración de dependencias y SDK del módulo app
-│   └── src/
-│       └── main/
-│           ├── AndroidManifest.xml       # Permisos, componentes y configuración de la app
-│           ├── java/com/studyplan/app/
-│           │   ├── Data.kt               # Modelos y estructuras de datos
-│           │   ├── MainActivity.kt       # Punto de entrada principal de la aplicación
-│           │   ├── Notifier.kt           # Lógica de creación y envío de notificaciones
-│           │   ├── Screens.kt            # Pantallas y componentes de interfaz (UI)
-│           │   ├── StudyViewModel.kt     # Lógica de negocio y gestión de estado
-│           │   └── Theme.kt              # Paleta de colores, tipografía y estilos
-│           └── res/
-│               ├── drawable/             # Íconos de lanzador y notificaciones
-│               └── values/               # Cadenas de texto (strings.xml) y temas (themes.xml)
-├── gradle/                               # Gradle Wrapper
-├── build.gradle.kts                      # Configuración global de Gradle
-├── settings.gradle.kts                   # Configuración de módulos del proyecto
-└── gradlew / gradlew.bat                 # Scripts de ejecución de Gradle
-
-
 🚀 Requisitos previos
 
 Android Studio (recomendado Iguana / Jellyfish / Ladybug o superior).
