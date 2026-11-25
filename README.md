@@ -36,7 +36,7 @@ Dispositivo físico o emulador Android con soporte para notificaciones.
 
 Clona este repositorio:
 
-git clone https://github.com/tu-usuario/StudyPlan.git
+git clone https://github.com/alejandra-jpg/Aplicaciones-Moviles-I.git
 
 
 Abre el proyecto en Android Studio:
